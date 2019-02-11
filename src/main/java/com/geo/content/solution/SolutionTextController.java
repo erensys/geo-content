@@ -20,4 +20,9 @@ public class SolutionTextController {
 		System.out.println(s);
 	}
 
+	@GetMapping("/context")
+	public String getSolutionContext() {
+		return "Solution Context";
+	}
+
 }
